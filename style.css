@@ -37,35 +37,96 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding-right:0;
 }
 
-/* = Full Screen Blocs 
--------------------------------------------------------------- */
 
-.bloc-fill-screen{
-	min-height:100vh;
-	display: flex;
-	flex-direction: column;
-	padding-top:20px;
-	padding-bottom:20px;
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 20px;
 }
-.bloc-fill-screen > .container{
-	align-self: flex-middle;
-	flex-grow: 1;
-	display: flex;
-	flex-wrap: wrap;
+.bloc-md{
+	padding:50px 20px;
 }
-.bloc-fill-screen > .container > .row{
-	flex-grow: 1;
-	align-self: center;
-	width:100%;
+
+
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
 }
-.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
-	flex-grow: 0;
+
+
+/* Video Background Styles */
+
+.video-bg-container, .bloc-video{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	right: -50%;
+	overflow: hidden;
+	transform: translateX(-50%);
+	-webkit-transform:translateX(-50%);
 }
-.bloc-fill-screen .fill-bloc-top-edge{
-	align-self: flex-start;
+.bloc-video, .video-bg-container iframe{
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0;
 }
-.bloc-fill-screen .fill-bloc-bottom-edge{
-	align-self: flex-end;
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
 }
 
 
@@ -160,6 +221,14 @@ button{
 	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 }
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -170,8 +239,8 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
-.threeD-t{
-	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
+.glow-t{
+	text-shadow:0 0 10px #FFF;
 }
 
 
@@ -225,6 +294,11 @@ button{
 	stroke-linecap:round;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -235,17 +309,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .btn-padding{
-	padding-top:8px;
-	padding-bottom:8px;
+	padding-top:2px;
+	padding-bottom:2px;
 	background-color:#00AA00;
 	border-radius:0px 0px 0px 0px;
 }
 .fundo{
-	background:linear-gradient(0deg, #001F44 15%, #FFFFFF   57%, #FFFFFF   100%);
+	height:600px;
 }
 .construcao{
 	font-weight:bold;
-	color:#001D43!important;
+	color:#EAEBF2!important;
+}
+.label-style{
+	color:#D6D6D6!important;
+}
+.sesusiteonline{
+	background-color:rgba(0,29,186,0.47);
+	color:#CBFFEA!important;
 }
 
 /* = Colour
@@ -253,8 +334,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-cornflower-blue{
-	background-color:rgba(80,141,255,0.31);
+.bgc-medium-slate-blue{
+	background-color:#7E85FD;
+}
+.bgc-black{
+	background-color:#000000;
 }
 
 /* Text colour styles */
@@ -263,11 +347,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#235EFF!important;
 }
 
+/* Link colour styles */
+
+.ltc-medium-slate-blue{
+	color:#7E85FD!important;
+}
+.ltc-medium-slate-blue:hover{
+	color:#656aca!important;
+}
+
 /* Icon colour styles */
 
-.icon-chartreuse-traditional{
-	color:#E6FF01!important;
-	border-color:#E6FF01!important;
+.icon-red{
+	color:#FF0010!important;
+	border-color:#FF0010!important;
 }
 
 
@@ -351,3 +444,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+@media (max-width: 575px){
+	.h1-style{
+		font-size:20px;
+	}
+	.label-style{
+		font-size:12px;
+	}
+	.btn-padding{
+		padding-top:4px;
+		padding-bottom:4px;
+	}
+	.footer-link{
+		text-align:center;
+	}
+	.sesusiteonline{
+		font-size:20px;
+		background-color:#000000;
+		color:#E8CC00!important;
+	}
+	
+}
+
