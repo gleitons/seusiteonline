@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------------
-	Meu Site Online - Site em construção
-	About: A shiny new Blocs website.
-	Author: HD Digital
+	Seu Site Online
+	About: Feito por Seu Site online - www.seusiteonline.com
+	Author: Seu site Online
 	Version: 1.0
 	Built with Blocs
 -----------------------------------------------------------------------------------*/
@@ -35,6 +35,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc .container{
 	padding-left:0;
 	padding-right:0;
+	position:relative;
 }
 
 
@@ -46,36 +47,54 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px 20px;
 }
-
-
-/* Background Styles */
-
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
+.bloc-sm{
+	padding:20px;
 }
 
 
-/* Video Background Styles */
+/* Background Textures */
 
-.video-bg-container, .bloc-video{
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 50%;
-	right: -50%;
-	overflow: hidden;
-	transform: translateX(-50%);
-	-webkit-transform:translateX(-50%);
+	left:0;
+	right:0;
 }
-.bloc-video, .video-bg-container iframe{
-	width: auto;
-	height: auto;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: 0;
+.texture-geometry-shapes::before{
+	background: url("img/texture-geometry-shapes.png");
+	background-size: 280px 280px;
+}
+.texture-darken-strong::before{
+	background: rgba(0,0,0,0.8);
+}
+
+
+/* Background Effects */
+
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+}
+.parallax {
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -244,19 +263,27 @@ button{
 }
 
 
-.card-sq, .card-sq .card-header, .card-sq .card-footer{
-	border-radius:0;
+/* = Masonary
+-------------------------------------------------------------- */
+.card-columns .card {
+	margin-bottom: 0.75rem;
 }
-.card-rd{
-	border-radius:30px;
+@media (min-width: 576px) {
+	.card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 1.25rem;
+	-moz-column-gap: 1.25rem;
+	column-gap: 1.25rem;
+	orphans: 1;
+	widows: 1;
 }
-.card-rd .card-header{
-	border-radius:29px 29px 0 0;
+.card-columns .card {
+	display: inline-block;
+	width: 100%;
 }
-.card-rd .card-footer{
-	border-radius:0 0 29px 29px;
 }
-
 
 /* = Forms
 -------------------------------------------------------------- */
@@ -316,6 +343,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .fundo{
 	height:600px;
+	background-size:600px auto;
+	background-blend-mode:screen;
+	background-position:left top;
 }
 .construcao{
 	font-weight:bold;
@@ -328,12 +358,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:rgba(0,29,186,0.47);
 	color:#CBFFEA!important;
 }
+.email-color{
+	box-shadow:0px 0px 8px #000000;
+}
+.email-color:hover{
+	box-shadow:0px 4px 4px #11A41D;
+}
+.email-color:active{
+	box-shadow:0px 5px 6px #14A51D;
+}
+.link-style{
+	width:11.67%;
+}
+.img-style{
+	width:57px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
+.bgc-white{
+	background-color:#FFFFFF;
+}
 .bgc-medium-slate-blue{
 	background-color:#7E85FD;
 }
@@ -363,6 +411,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:#FF0010!important;
 }
 
+/* Bloc image backgrounds */
+
+.bg-sso-construcao{
+	background-image:url("https://www.salamineira.com/img/sso-construcao.jpeg");
+}
 
 
 
@@ -444,6 +497,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+@media (max-width: 767px){
+	.text-right{
+	}
+	.text-left{
+	}
+	.text-center{
+	}
+	
+}
+
 @media (max-width: 575px){
 	.h1-style{
 		font-size:20px;
