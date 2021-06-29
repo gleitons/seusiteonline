@@ -1,0 +1,1365 @@
+/*-----------------------------------------------------------------------------------
+	Seu Site Online
+	About: Seusiteonline.com - Criado por Gleiton Aparecido Soares de Souza
+	Author: Seu Site Online
+	Version: 1.0
+	Built with Blocs
+-----------------------------------------------------------------------------------*/
+body{
+	margin:0;
+	padding:0;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
+a:hover{text-decoration: none; cursor:pointer;}
+
+
+/* Preloader */
+
+.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
+.preloader-complete{animation-delay:0.1s;}
+@keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
+
+/* = Blocs
+-------------------------------------------------------------- */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	display:flex;
+}
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+	position:relative;
+}
+
+
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 20px;
+}
+.bloc-sm{
+	padding:20px;
+}
+
+/* = Full Screen Blocs 
+-------------------------------------------------------------- */
+
+.bloc-fill-screen{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.bloc-fill-screen > .container{
+	align-self: flex-middle;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc-fill-screen > .container > .row{
+	flex-grow: 1;
+	align-self: center;
+	width:100%;
+}
+.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+	flex-grow: 0;
+}
+.bloc-fill-screen .fill-bloc-top-edge{
+	align-self: flex-start;
+}
+.bloc-fill-screen .fill-bloc-bottom-edge{
+	align-self: flex-end;
+}
+
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Edge Dividers */
+
+.bloc-shape-divider{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	left:0;
+	right:0;
+	z-index: 0;
+	display: flex;
+	pointer-events: none;
+}
+.svg-divider{
+	width:100%;
+	height:100px;
+	fill:#000000;
+}
+.bloc-divider-top{
+	top:-1px;
+	align-items: flex-start;
+}
+.bloc-divider-bottom{
+	bottom:-1px;
+	align-items: flex-end;
+}
+.bloc-divider-flip-x svg{
+	transform:scale(-1,1);
+}
+.bloc-divider-flip-y svg{
+	transform:scale(1,-1);
+}
+.bloc-divider-flip-x.bloc-divider-flip-y svg{
+	transform:scale(-1,-1);
+}
+
+
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-darken-strong::before{
+	background: rgba(0,0,0,0.8);
+}
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
+/* Light theme */
+
+.d-bloc .card,.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover,.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span,.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
+/* = NavBar
+-------------------------------------------------------------- */
+
+
+/* Nav Special Classes */
+.nav-special{
+	overflow-y:scroll;
+}
+.nav-special .site-navigation{
+	top:0;
+	left:0;
+	width:100%;
+	position: relative!important;
+	max-width: 100%!important;
+	z-index: 1000;
+}
+.nav-special .nav > li{
+	width:100%;
+	background: none!important;
+	border:0!important;
+}
+.nav-special.collapsing{
+	-webkit-transition: none;
+	transition: none;
+	height:100%!important;
+	background: none!important;
+}
+.nav-special .navbar-nav .dropdown-menu.show{
+	position: relative!important;
+	transform: none!important;
+	float: none;
+	width: 100%;
+	margin-top: 0;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+}
+.nav-special .nav .dropdown-menu .nav-link{
+	color:#FFF;
+}
+.blocsapp-special-menu{
+	position: absolute;
+	z-index:10000;
+}
+.nav-special.fullscreen-nav .caret,.nav-special.fullscreen-nav .dropdown-menu .dropdown .caret{
+	border-width: 8px;
+}
+.nav-special .navbar-nav .show>.nav-link{
+	color:#FFF;
+}
+
+/* Animate Menu Symbol */
+.navbar-toggle{
+	transition: all .1s linear;
+}
+.selected-nav{
+	opacity: 0;
+	transform: scale(0.3);
+	transition: all .1s linear;
+}
+
+
+/* Special Menu Close Button */
+.close-special-menu{
+	position: absolute;
+	display: block;
+	width: 25px;
+	height:25px;
+	top:16px;
+	right:10px;
+	z-index: 10000;
+}
+.nav-invert .sidebar-nav .close-special-menu{
+	left:260px;
+}
+.close-special-menu .close-icon{
+	display: block;
+	width:100%;
+	height:1px;
+	transform: rotate(45deg);
+	margin-top:12px;
+}
+.close-special-menu .close-icon:after{
+	content:"";
+	display:inherit;
+	width:inherit;
+	height:inherit;
+	background: inherit;
+	transform: rotate(90deg);
+}
+.lock-scroll{
+	overflow:hidden;
+	transition: background .3s linear;
+}
+.nav-special::-webkit-scrollbar{
+	-webkit-appearance: none;
+	width:0;
+	height:0;
+}
+.nav-special .dropdown-menu .dropdown .caret{
+	border-top-color: rgba(255,255,255,.8);
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	margin: 0 0 0 5px;
+	float: none;
+}
+.blocsapp-special-menu .site-navigation.pull-right{
+	float:none!important;
+}
+
+/* Nav Special Close Button */
+.close-special-menu .close-icon{
+	background:#fff;
+}
+.blocsapp-special-menu blocsnav{
+	background: #000;
+}
+
+/* Full Screen Navigation */
+.nav-special.fullscreen-nav{
+	width: 100%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	z-index: 1000;
+	position: fixed;
+	transition: all .2s linear;
+}
+ .nav-special.fullscreen-nav.open-up{
+	transform: translateY(1000px);
+}
+ .nav-special.fullscreen-nav.open-down{
+	transform: translateY(-1000px);
+}
+ .nav-special.fullscreen-nav.open-left{
+	transform: translateX(-1000px);
+}
+ .nav-special.fullscreen-nav.open-right{
+	transform: translateX(1000px);
+}
+ .nav-special.fullscreen-nav .nav > li a,.nav-special.fullscreen-nav .nav .dropdown-menu > li > a{
+	color:rgba(255,255,255,.8);
+	text-align: center;
+	font-size: 28px;
+}
+ .nav-special.fullscreen-nav .nav > li a:hover{
+	color:#FFF;
+}
+ .open.nav-special.fullscreen-nav{
+	opacity: 1;
+	transition: all .2s linear;
+}
+.nav-special.fullscreen-nav .site-navigation{
+	text-align:center;
+	margin-top:10%!important;
+}
+.nav-special.fullscreen-nav .close-special-menu{
+	right:20px;
+}
+ .open.nav-special.fullscreen-nav.open-left,  .open.nav-special.fullscreen-nav.open-right,  .open.nav-special.fullscreen-nav.open-down, .open.nav-special.fullscreen-nav.open-up{
+	transform: translateY(0);
+}
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
+}
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-clear{
+	margin:0;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+/* = Buttons
+-------------------------------------------------------------- */
+
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF;
+	background:rgba(0,0,0,.3);
+}
+
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
+.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
+	background:none;
+	box-shadow: none;
+	padding:0;
+}
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
+.dropdown a .caret{
+	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
+	padding: 3px 20px;
+}
+
+/* = Icons
+-------------------------------------------------------------- */
+.icon-lg{
+	font-size:60px!important;
+}
+.icon-xl{
+	font-size:100px!important;
+}
+
+
+
+
+/* = Masonary
+-------------------------------------------------------------- */
+.card-columns .card {
+	margin-bottom: 0.75rem;
+}
+@media (min-width: 576px) {
+	.card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 1.25rem;
+	-moz-column-gap: 1.25rem;
+	column-gap: 1.25rem;
+	orphans: 1;
+	widows: 1;
+}
+.card-columns .card {
+	display: inline-block;
+	width: 100%;
+}
+}
+
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
+
+
+
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:36px;
+	height:36px;
+	padding:5px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	opacity:0;
+	z-index:999;
+	transition: all .3s ease-in-out;
+	pointer-events:none;
+}
+.showScrollTop{
+	opacity: 1;
+	pointer-events:all;
+}
+.scroll-to-top-btn-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+/* = iMac Device
+-------------------------------------------------------------- */
+
+.blocsapp-device-imac{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	display: block;
+	width:100%;
+	height:auto;
+	padding: 4% 8.5% 23.7%;
+	background-image:url("img/Apple-iMac.png");
+}
+.blocsapp-device-imac.imac-pro{
+	background-image:url("img/Apple-iMac-Pro.png");
+}
+.blocsapp-device-imac img{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+.blocsapp-device-imac .ratio::before{
+	padding-top: 56.25%;
+}
+
+/* = Modal
+-------------------------------------------------------------- */
+
+.modal-fill{
+	max-width: 99%;
+}
+
+.close{
+	color:#000;
+	opacity:0.5;
+}
+.close:hover{
+	opacity:1;
+}
+
+/* = Custom Styling
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+	font-family:"Montserrat";
+}
+.container{
+	max-width:1140px;
+}
+.logo-seu-site-online{
+	width:119px;
+	height:128px;
+}
+.title-seusiteonline{
+	width:85%;
+	font-weight:lighter;
+	font-size:60px;
+	color:#FFFFFF!important;
+	font-family:Montserrat;
+}
+.logo-seu-site-online:hover{
+	filter:saturate(176%);
+}
+.pagina-top-seusiteonline{
+	background-size:cover;
+	background-position:center top;
+	background-blend-mode:normal;
+	background-attachment:fixed;
+}
+.p-style{
+	font-size:20px;
+	width:66.4%;
+	color:#FFFFFF!important;
+	font-weight:lighter;
+}
+.botao-comece-ja{
+	background-color:#8B55D6;
+	height:60px;
+	width:250px;
+	border-style:_NS:2416;
+	text-align:center;
+	text-transform:none;
+	text-decoration:none;
+	padding-top:15px;
+	border-radius:0px 0px 0px 0px;
+}
+.templates-coluna{
+	margin-bottom:50px;
+}
+.title-templates{
+	font-size:15px;
+	font-weight:bold;
+	background-color:rgba(220,222,222,0.83);
+	color:rgba(0,0,0,0.91)!important;
+}
+.coluna-template-produto{
+	box-shadow:0px 3px 4px #9F9F9F;
+}
+.coluna-template-produto:hover{
+	box-shadow:0px 5px 14px #000000;
+}
+.titulo-recursos{
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF!important;
+}
+.bloco-recursos{
+	background-color:#8B55D6;
+}
+.descricao-recursos{
+	color:#FFFFFF!important;
+}
+.icone-recursos{
+	background-color:transparent;
+	color:#FFFFFF!important;
+}
+.div-recursos{
+	margin-bottom:50px;
+}
+.title-mais-recursos{
+	color:rgba(255,255,255,0.92)!important;
+	font-weight:lighter;
+	font-family:"Montserrat";
+}
+.h2-style{
+	width:68.31%;
+	font-family:Montserrat;
+	font-weight:bold;
+}
+.imagem-foco-template{
+	filter:saturate(5%);
+}
+.imagem-foco-template:hover{
+	filter:saturate(140%);
+	margin-bottom:10px;
+}
+.botao-comece-ja:hover{
+	background:linear-gradient(0deg, #BA82FF 0%, #D2BEFF 100%);
+}
+.p-bloc-1-style{
+	width:33.97%;
+	font-style:italic;
+	font-weight:bold;
+}
+.btn-padding{
+	padding-top:10px;
+	padding-bottom:26px;
+	width:29.49%;
+}
+.img-style{
+	width:73px;
+}
+.h2-templates-style{
+	font-family:Montserrat;
+	color:rgba(0,0,0,0.90)!important;
+	font-size:40px;
+}
+.h2-bloc-7-style{
+	font-family:Montserrat;
+}
+.naoperca{
+	color:rgba(0,0,0,0.96)!important;
+}
+.botao-criar-site{
+	height:60px;
+	width:352px;
+	font-size:25px;
+	background-color:#000000;
+	border-radius:0px 0px 0px 0px;
+}
+.titulo-footer{
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Montserrat";
+	color:#000000!important;
+}
+.descricao-footer{
+	font-size:16px;
+	color:#434343!important;
+}
+.titulo-o-que-precisa{
+	font-family:"Montserrat";
+	font-weight:bold;
+	color:rgba(0,0,0,0.89)!important;
+}
+.descricao-sucesso{
+	font-size:17px;
+	color:rgba(0,0,0,0.80)!important;
+	font-weight:lighter;
+}
+.bloc-divider-t-style{
+	width:100%;
+	height:542px;
+	fill:#2DD2B8;
+}
+.imagem-sucesso{
+	box-shadow:0px 28px 23px #B0B0B0;
+}
+.descricao-templates{
+	font-size:17px;
+	color:rgba(90,90,90,0.84)!important;
+}
+.bloc-divider-b-style{
+	height:952px;
+	fill:#727272;
+}
+.bloc-divider-b-fill{
+	fill:#34A2B5;
+	height:673px;
+}
+.titile-acordeon{
+	font-size:17px;
+	font-weight:bold;
+	font-family:"Montserrat";
+	text-decoration:none;
+	color:#D5D5D5!important;
+}
+.bloc-divider-t-bloc-8-style{
+	height:747px;
+	fill:#206471;
+}
+.title-acc{
+	color:#FFFFFF!important;
+	font-family:"Montserrat";
+	font-size:40px;
+}
+.coluna-acco{
+	background-color:#FFFFFF;
+	box-shadow:0px 12px 16px #7F7F7F;
+}
+.div-acco{
+	background-color:#1F6470;
+	background:linear-gradient(0deg, #2B95A7 0%, #1F6470 100%);
+}
+.fundo-acc-green{
+	background-color:#2C96A8;
+}
+.title-acco-white{
+	color:#1F6470!important;
+	text-decoration:none;
+	font-family:"Montserrat";
+	font-weight:bold;
+}
+.fundo-acc-white{
+	background-color:#D4D4D4;
+}
+.frente-seu-site-online{
+	height:447px;
+}
+.link-style{
+	width:8.51%;
+}
+.navbar-brand img{
+	width:50px;
+	height:30px;
+}
+.title-sobre-nos{
+	font-weight:bold;
+	font-size:40px;
+	color:#343434!important;
+}
+.descricao-sobre-nos{
+	color:rgba(0,0,0,0.94)!important;
+}
+.p-18-style{
+	width:57.02%;
+}
+.h3-style{
+	width:57.46%;
+}
+.bloc-divider-b-0-style{
+	height:726px;
+	fill:rgba(88,212,253,0.45);
+}
+.contato-form-preencher{
+	border-style:solid;
+	border-color:rgba(0,0,0,0.82)!important;
+	margin-top:30px;
+	border-radius:0px 0px 0px 0px;
+	border-width:0px 0px 2px 0px;
+}
+.contato-title{
+	color:#000000!important;
+	font-weight:bold;
+}
+.botao-enviar-contato{
+	background-color:#000000;
+	font-weight:bold;
+	font-size:30px;
+	width:300px;
+	border-radius:0px 0px 0px 0px;
+}
+.fundo-contato{
+	background-size:1280px auto;
+	background-attachment:fixed;
+	font-weight:bold;
+}
+.culuna-contato{
+	background-color:#FFFFFF;
+	box-shadow:0px 2px 22px #000000;
+	padding:30px 30px 30px 30px;
+}
+.botao-enviar-contato:hover{
+	background-color:#7F7F7F;
+}
+.p-bloc-7-style{
+	width:38.88%;
+}
+.imagem-site-internet{
+	width:0px;
+	height:10px;
+	filter:saturate(0%);
+}
+.imagem-site-internet:hover{
+	filter:saturate(130%);
+}
+.nome-template{
+	font-size:17px;
+	text-align:center;
+	font-weight:bold;
+	color:rgba(0,0,0,0.95)!important;
+}
+.cima-div-template:hover{
+	background:linear-gradient(0deg, rgba(254,254,254,0.27)  1%, #9A9A9A 100%);
+}
+.div-acco:active{
+	background:linear-gradient(0deg, #33B5CD 0%, #2B8A9C 100%);
+}
+.div-acco:focus{
+	background:linear-gradient(0deg, #39C8E2 0%, #35BCD4 100%);
+}
+.white-acc{
+	background:linear-gradient(0deg, #D3D3D3 0%, #FFFFFF 100%);
+}
+.img-24-style{
+	width:297px;
+}
+.titulo-enviado-com-sucesso{
+	font-size:50px;
+	color:#000000!important;
+	font-weight:bold;
+}
+.descricao-enviado{
+	font-size:40px;
+	color:rgba(0,0,0,0.61)!important;
+}
+.coluna-fundo-enviado{
+	background-color:rgba(216,139,234,0.30);
+}
+.h3-bloc-14-style{
+	width:67.89%;
+}
+.descricao-green-acc{
+	color:#E9E9E9!important;
+}
+.desc-acc-black{
+	color:rgba(0,0,0,0.93)!important;
+}
+.link-footer{
+	font-size:15px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.coluna-contato-acende{
+	background-color:rgba(0,0,0,0.50);
+}
+.coluna-contato-acende:hover{
+	background-color:#FFFFFF;
+}
+.h3-bloc-9-style{
+	font-size:40px;
+}
+.link-footer:hover{
+	color:#000000!important;
+	font-weight:bold;
+}
+.botao-modal-contrate-nos{
+	background-color:#38A449;
+	border-radius:0px 0px 0px 0px;
+}
+.botao-modal-baixar{
+	background-color:#E5442A;
+	border-radius:0px 0px 0px 0px;
+}
+.distancias-button-modal{
+	margin-top:5px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-radius:0px 0px 0px 0px;
+}
+.card-header-style{
+	height:47px;
+	background:linear-gradient(0deg, #C7C7C7 0%, #FFFFFF 100%);
+}
+.title-button-site{
+	font-size:20px;
+	font-weight:bold;
+}
+.botao-nao-conseguir-ver{
+	background-color:#4150D1;
+}
+.botao-nao-conseguir-ver:hover{
+	background-color:#4E60FF;
+}
+.botao-modal-baixar:hover{
+	background-color:#FF6B51;
+}
+.botao-modal-contrate-nos:hover{
+	background-color:#46CA5C;
+}
+.fechar-modal{
+	background-color:#9D3ED0;
+	border-radius:0px 0px 0px 0px;
+}
+.color-initial{
+	background:linear-gradient(0deg, rgba(150,33,234,0.97) 0%, #FFFFFF 100%);
+}
+.fundo-page-initial{
+	background:linear-gradient(0deg, transparent  0%, rgba(108,108,108,0.46) 100%);
+}
+.inicio-site{
+	background-attachment:fixed;
+}
+.inicio-site::before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background:linear-gradient(250deg, rgba(164,0,109,0.30) 0%, transparent 20%, rgba(44,188,0,0.15) 40%, rgba(0,87,173,0.24) 60%, rgba(191,0,39,0.11) 84%, #FFFFFF 100%);
+}
+.bloc-divider-b-24093-style{
+	height:417px;
+}
+.bloc-divider-t-0-style{
+	height:590px;
+	width:100%;
+	fill:rgba(64,206,183,0.22);
+}
+.desc-footer-seusiteonline{
+	font-size:20px;
+	color:#FFFFFF!important;
+	font-weight:bold;
+}
+.baixa-site{
+	border-style:solid;
+	border-color:rgba(3,0,179,0.79)!important;
+	background-color:transparent;
+	color:#9B9B9B!important;
+	margin:10px 10px 10px 0px;
+	border-radius:0px 0px 0px 0px;
+	border-width:2px 2px 2px 2px;
+}
+.baixa-site:hover{
+	color:#000000!important;
+	background-color:#B9B9B9;
+}
+.contratar-serviço{
+	background-color:#028800;
+	font-weight:bold;
+	margin:10px 10px 20px 0px;
+	border-radius:0px 0px 0px 0px;
+}
+.contratar-serviço:hover{
+	background-color:#05D823;
+	color:#000000!important;
+}
+.blocs-footer-pedido-seusiteonline{
+	background-color:#000000;
+}
+.certificado-original{
+	filter:saturate(0%);
+	height:100px;
+	margin-right:0px;
+}
+.certificado-original:hover{
+	filter:saturate(159%);
+}
+.desc-2-footer-{
+	color:#E6E6E6!important;
+}
+.formulario-contato-contratar{
+	background-color:transparent;
+}
+.top-contato{
+	background-color:rgba(238,238,238,0.14);
+	border-style:solid;
+	border-color:#FFFFFF!important;
+	border-radius:0px 0px 0px 0px;
+	border-width:0px 0px 2px 0px;
+}
+.enviar-contato-fazer-site{
+	border-style:solid;
+	border-color:rgba(211,211,211,0.65)!important;
+	border-radius:0px 0px 0px 0px;
+	border-width:1px 1px 1px 1px;
+}
+.enviar-contato-fazer-site:hover{
+	color:#1FCE00!important;
+	background-color:rgba(76,187,87,0.45);
+}
+.erro-404{
+	background-color:#B8CFCD;
+}
+.h2-bloc-20-style{
+	width:47.37%;
+	color:rgba(0,0,0,0.83)!important;
+}
+.p-bloc-20-style{
+	width:54.65%;
+	color:rgba(0,0,0,0.79)!important;
+}
+.btn-contato-style{
+	width:50%;
+	background-color:#3E7BE9;
+	border-radius:0px 0px 0px 0px;
+}
+.container-div-style{
+	width:100%;
+	background-color:rgba(255,255,255,0.88);
+	padding:20px 20px 20px 20px;
+}
+.botao-inic{
+	width:50%;
+	background-color:#2FA13C;
+	border-radius:0px 0px 0px 0px;
+}
+.botao-inic:hover{
+	background-color:#40DE55;
+	color:rgba(255,255,255,0.70)!important;
+}
+.btn-contato-style:hover{
+	background-color:#4084FF;
+	color:#000000!important;
+}
+.link-seusiteonline{
+	color:rgba(0,84,255,0.99)!important;
+}
+.img-27-style{
+	width:52px;
+}
+.top-contratar{
+	background:linear-gradient(0deg, #113F4B 0%, #45788A 100%);
+}
+.tenha-um{
+	font-weight:900;
+	font-family:"Lato";
+}
+.site-profissional{
+	font-size:60px;
+	font-weight:900;
+	color:#C91D10!important;
+	font-family:"Lato";
+}
+.ideal-pequenas{
+	font-size:20px;
+	font-family:"Lato";
+	font-weight:900;
+}
+.desc-site-profissional{
+	font-family:"Lato";
+	font-weight:400;
+	font-size:20px;
+}
+.btn-enviar-contrato{
+	width:60.04%;
+	background-color:#C91E10;
+	color:#FFFFFF!important;
+	font-weight:bold;
+	border-radius:0px 0px 0px 0px;
+}
+.promessa-spam{
+	font-size:15px;
+}
+.coluna-tenha{
+	background-color:rgba(0,0,0,0.52);
+	padding:100px 20px 20px 15px;
+}
+.coluna-como-{
+	padding-top:30px;
+	background-color:#12404B;
+}
+.blocs-app{
+	color:#1E38EF!important;
+	font-weight:bold;
+}
+.input-dados{
+	background-color:rgba(0,0,0,0.27);
+	color:#AEAEAE!important;
+	border-style:solid;
+	border-color:#FFFFFF!important;
+	border-radius:0px 0px 0px 0px;
+	border-width:0px 0px 2px 0px;
+}
+.p-bloc-21-style{
+	width:100%;
+}
+.icon-privacidade{
+	color:#2459FF!important;
+	text-shadow:0px 0px 12px #5F75B5;
+}
+.compromissso{
+	font-weight:bold;
+	font-size:20px;
+	color:#000000!important;
+}
+.desc-compromisso{
+	color:rgba(51,51,51,0.85)!important;
+}
+.coluna-esquerda-privacidade{
+	background:linear-gradient(90deg, #6EACC3 0%, #FFFFFF 100%);
+	box-shadow:-1px 1px 12px #000000;
+}
+.img-bloc-24-style{
+	width:170px;
+	padding-top:10px;
+}
+.menu-primario-head{
+	box-shadow:0px 1px 12px #B2B2B2;
+}
+.download-blocs{
+	background-color:#8B54D6;
+}
+.download-blocs:hover{
+	background-color:#9A5BF0;
+}
+.h3-19-style{
+	width:53.07%;
+}
+.vermelh{
+	background-color:#CC4AC7;
+}
+
+/* = Colour
+-------------------------------------------------------------- */
+
+/* Background colour styles */
+
+.bgc-turquoise{
+	background-color:#2ED2B8;
+}
+
+/* Text colour styles */
+
+.tc-white{
+	color:#FFFFFF!important;
+}
+.tc-white-2{
+	color:#FFFFFF!important;
+}
+
+/* Link colour styles */
+
+.ltc-white{
+	color:#FFFFFF!important;
+}
+.ltc-white:hover{
+	color:#cccccc!important;
+}
+.ltc-white-2{
+	color:#FFFFFF!important;
+}
+.ltc-white-2:hover{
+	color:#cccccc!important;
+}
+
+/* Bloc image backgrounds */
+
+.bg-inicio-topo-fundo{
+	background-image:url("img/inicio-topo-fundo.jpg");
+}
+.bg-fundo-contato-seusiteonline-com{
+	background-image:url("img/fundo-contato-seusiteonline.com.jpeg");
+}
+.bg-img-02{
+	background-image:url("img/img-02.jpg");
+}
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
+
+
+
+/* = Bloc Padding Multi Breakpoint
+-------------------------------------------------------------- */
+
+@media (min-width: 576px) {
+    .bloc-xxl-sm{padding:200px 20px;}
+    .bloc-xl-sm{padding:150px 20px;}
+    .bloc-lg-sm{padding:100px 20px;}
+    .bloc-md-sm{padding:50px 20px;}
+    .bloc-sm-sm{padding:20px;}
+    .bloc-no-padding-sm{padding:0 20px;}
+}
+@media (min-width: 768px) {
+    .bloc-xxl-md{padding:200px 20px;}
+    .bloc-xl-md{padding:150px 20px;}
+    .bloc-lg-md{padding:100px 20px;}
+    .bloc-md-md{padding:50px 20px;}
+    .bloc-sm-md{padding:20px 20px;}
+    .bloc-no-padding-md{padding:0 20px;}
+}
+@media (min-width: 992px) {
+    .bloc-xxl-lg{padding:200px 20px;}
+    .bloc-xl-lg{padding:150px 20px;}
+    .bloc-lg-lg{padding:100px 20px;}
+    .bloc-md-lg{padding:50px 20px;}
+    .bloc-sm-lg{padding:20px;}
+    .bloc-no-padding-lg{padding:0 20px;}
+}
+
+
+/* = Mobile adjustments 
+-------------------------------------------------------------- */
+@media (max-width: 1024px)
+{
+    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
+        padding-left: 0; 
+        padding-right: 0;  
+    }
+}
+@media (max-width: 991px)
+{
+    .container{width:100%;}
+    .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+}
+@media (max-width: 767px)
+{
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+        padding-left:0;padding-right:0;
+    }
+    .btn-dwn{
+       display:none; 
+    }
+    .voffset{
+        margin-top:5px;
+    }
+    .voffset-md{
+        margin-top:20px;
+    }
+    .voffset-lg{
+        margin-top:30px;
+    }
+    form{
+        padding:5px;
+    }
+    .close-lightbox{
+        display:inline-block;
+    }
+    .blocsapp-device-iphone5{
+	   background-size: 216px 425px;
+	   padding-top:60px;
+	   width:216px;
+	   height:425px;
+    }
+    .blocsapp-device-iphone5 img{
+	   width: 180px;
+	   height: 320px;
+    }
+}
+
+@media (max-width: 991px){
+	.contratar-serviço{
+		font-size:15px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.text-right{
+	}
+	.text-left{
+	}
+	.text-center{
+	}
+	
+}
+
+@media (max-width: 575px){
+	.title-sobre-nos{
+		font-size:30px;
+	}
+	.p-18-style{
+		font-size:15px;
+		width:79.12%;
+	}
+	.h3-bloc-14-style{
+		width:100%;
+		font-size:18px;
+		text-align:center;
+	}
+	.botao-modal-contrate-nos{
+		font-size:10px;
+	}
+	.botao-modal-baixar{
+		font-size:10px;
+	}
+	.h3-bloc-5-style{
+		opacity:1.0;
+	}
+	.title-button-site{
+		font-size:13px;
+	}
+	.baixa-site{
+		font-size:18px;
+	}
+	.h2-bloc-20-style{
+		width:68.68%;
+	}
+	.p-bloc-20-style{
+		width:63.35%;
+	}
+	.container-div-bloc-25-style{
+		width:100%;
+	}
+	
+}
+
