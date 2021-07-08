@@ -2,9 +2,907 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://seusiteonline.com</loc>
-	<lastmod>2021-06-22</lastmod>
+	<lastmod>2021-07-08</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/logo-seu-site-online-white.svg</image:loc>
+	<image:title>Logo seu-site-online-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>laptop</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/enviado-com-sucesso-seusiteonline.png</image:loc>
+	<image:title>laptop</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template040.png</image:loc>
+	<image:title>design-de-imoveis-gratis</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template010.png</image:loc>
+	<image:title>snapshot shop007</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template051.png</image:loc>
+	<image:title>snapshot shop007</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template035.png</image:loc>
+	<image:title>snapshot shop007</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template026.png</image:loc>
+	<image:title>snapshot shop007</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template054.png</image:loc>
+	<image:title>template-gratis-empresarial</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/inicio-topo-fundo.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/inicio-topo-fundo.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/templates/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-loja-de-roupas-online.jpeg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-seusiteonlineseu-template-site-carpintaria.jpg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-seusiteonlineseu-template-dj-festa.jpg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-empresarial-seu-site-online.jpg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/Template-para-pizzaria-online-seu-site-online.jpg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-arquitetura-seu-site-online.jpg</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template047.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template050.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template055.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template053.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template046.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/snapshot-template026.png</image:loc>
+	<image:title>imac screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/entre-em-contato/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/sobre/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/perguntas-frequentes/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/logo-seu-site-online-white.svg</image:loc>
+	<image:title>logo seu-site-online-white</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/enviado/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/enviado-com-sucesso-seusiteonline.png</image:loc>
+	<image:title>enviado com-sucesso-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/contato/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/entro-em-contato-seusiteonline.com.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/orcamento/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-seusiteonline.svg</image:loc>
+	<image:title>seu site-online-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/crie-seu-site-online-seusiteonline.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/contratar/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-seusiteonline.svg</image:loc>
+	<image:title>seu site-online-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/404/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/404-seusiteonline.jpeg</image:loc>
+	<image:title>404 seusiteonline.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/atribuicoes/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/privacidade/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seguranca-auth-seusiteonline-seguro.svg</image:loc>
+	<image:title>seguranca seu-site-online-seguro.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/templates-blocs-app/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/buttons-blocs-app-mac.png</image:loc>
+	<image:title>buttons blocs-app-mac</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/b4-blocs-template.png</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/agencia-de-marketing-seusiteonline-notebook.jpeg</image:loc>
+	<image:title>template-blocs-app-agencia-de-marketing</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/cantora-e-compositora-template-for-blocs-app-min.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/notebook-amostra-demo-template-for-blocs-design-moveis.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/loading/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/loading-seusiteonline-carregando.gif</image:loc>
+	<image:title>loading seusiteonline-carregando</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/modelo-site-blocs/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seusiteonline-modelo-notebook-template-for-blocs-app.svg</image:loc>
+	<image:title>seusiteonline modelo-notebook-template-for-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min-1.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/computador-macbook-os-seu-site-online-template-blocs-free.png</image:loc>
+	<image:title>computador macbook-os-seu-site-online-template-blocs-free</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-template-dentista-blocs-app.gif</image:loc>
+	<image:title>mbp screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/perfeitamente-otimizado.gif</image:loc>
+	<image:title>perfeitamente otimizado</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/nossas-ferramentas/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icone-blocs-app-template-seusiteonline.jpeg</image:loc>
+	<image:title>icon-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/solis-app-template-for-blocs-app.jpeg</image:loc>
+	<image:title>icon-solis-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/hype-4-template-for-blocs-app-seusiteonline.jpeg</image:loc>
+	<image:title>icon-hype-4-tumult</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/adobe-illustrator-template-for-blocs-app-seusiteonline.png</image:loc>
+	<image:title>icon-illustrator-adobe</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-photoshop-template-for-blocs.png</image:loc>
+	<image:title>icon-adobe-photoshop</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-wordpress-seusiteonline.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/camtasia-criacao-template-blocs-app-seusiteonline.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-github-desktop-template-for-blocs-seusiteonline.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/visual-studio-code-template-blocs-app.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/image-optimazer-mac-template-for-blocs.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/mac-os-mojave-template-for-blocs-seu-site-online.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/chrome-mac-os-template-for-mac.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/jivochat-icon-seusiteonline.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/whatsapp-icon-seusiteonline.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-blender-279-template-for-blocs-app-seu-site-online.jpeg</image:loc>
+	<image:title>b4 blocs-template</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-blocs-app-seusiteonline%20100-min.png</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/icon-blocs-app-seusiteonline%20100-min.png</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/hospedagem/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/servidor-seu-site-online-hospedagem-gratis.svg</image:loc>
+	<image:title>servidor seu-site-online-hospedagem-gratis</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/min-resultados-seu-site-online.jpeg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/min-resultados-seu-site-online.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/precos-hospedagem-de-sites/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/blocs-app/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/hero-blocs-app-seusiteonline.jpeg</image:loc>
+	<image:title>hero blocs-app-seusiteonline.jpeg</image:title>
+	</image:image>
+	<video:video>
+	<video:content_loc>https://seusiteonline.com/vid/blocs-app-video-seusiteonline.mp4</video:content_loc>
+	<video:title>blocs-app-video-seusiteonline</video:title>
+	</video:video>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/blocs/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/template-agencia-de-marketing/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/agencia-de-marketing-seusiteonline-notebook.jpeg</image:loc>
+	<image:title>seusiteonline modelo-notebook-template-for-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min-1.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/computador-macbook-os-seu-site-online-template-blocs-free.png</image:loc>
+	<image:title>computador macbook-os-seu-site-online-template-blocs-free</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-template-dentista-blocs-app.gif</image:loc>
+	<image:title>mbp screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/perfeitamente-otimizado.gif</image:loc>
+	<image:title>perfeitamente otimizado</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/agencia-de-marketing-seusiteonline-notebook.jpeg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/agencia-de-marketing-seusiteonline-notebook.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/suporte/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/contato-suporte/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/Logo-seu-site-online-seusiteonline.svg</image:loc>
+	<image:title>Logo seu-site-online-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/enviado-com-sucesso-seusiteonline.png</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/enviado-com-sucesso-seusiteonline.png</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/precos/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/gtmetrix-seusiteonline-ultimo-teste.jpg</image:loc>
+	<image:title>carregando, aguarde - Teste seu site online</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/preco-site-institucional/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/servicos/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/gleiton-soares/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/template-design-de-moveis/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/notebook-amostra-demo-template-for-blocs-design-moveis.jpeg</image:loc>
+	<image:title>template-for-blocs-app-design-moveis</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min-1.png</image:loc>
+	<image:title>templates-free-blocs-app-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/computador-macbook-os-seu-site-online-template-blocs-free.png</image:loc>
+	<image:title>computador macbook-os-seu-site-online-template-blocs-free</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-template-dentista-blocs-app.gif</image:loc>
+	<image:title>mbp screen</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/perfeitamente-otimizado.gif</image:loc>
+	<image:title>perfeitamente otimizado</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/notebook-amostra-demo-template-for-blocs-design-moveis.jpeg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/notebook-amostra-demo-template-for-blocs-design-moveis.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/pagamento/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/template-cantora-e-compositora/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/cantora-e-compositora-template-for-blocs-app-min.jpeg</image:loc>
+	<image:title>template-blocs-cantora-e-compositora</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min-1.png</image:loc>
+	<image:title>templates-for-blocs-templates-para-blocs</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/computador-macbook-os-seu-site-online-template-blocs-free.png</image:loc>
+	<image:title>macbook-seusiteonline-template-para-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-template-dentista-blocs-app.gif</image:loc>
+	<image:title>Carregando-animacao-template-dentista-para-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/perfeitamente-otimizado.gif</image:loc>
+	<image:title>perfeitamente-otimizado-para-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/manual-instalacao-template/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<video:video>
+	<video:content_loc>https://seusiteonline.com/vid/descompactar-seusiteonline-template-blocs-app.mp4</video:content_loc>
+	<video:title>descompactar-seusiteonline-template-blocs-app</video:title>
+	</video:video>
+	<video:video>
+	<video:content_loc>https://seusiteonline.com/vid/abrir-levar-atalho-seusiteonline-template-blocs-app.mp4</video:content_loc>
+	<video:title>abrir-levar-atalho-seusiteonline-template-blocs-app</video:title>
+	</video:video>
+	<video:video>
+	<video:content_loc>https://seusiteonline.com/vid/abrir-dois-cliques-seusiteonline-template-blocs-app.mp4</video:content_loc>
+	<video:title>abrir-dois-cliques-seusiteonline-template-blocs-app</video:title>
+	</video:video>
+	<video:video>
+	<video:content_loc>https://seusiteonline.com/vid/botao-direito-seusiteonline-template-blocs-app.mp4</video:content_loc>
+	<video:title>botao-direito-seusiteonline-template-blocs-app</video:title>
+	</video:video>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/plano-site-incrivel/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/obrigado/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/enviado-com-sucesso/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/obrigado-pelo-contato-seusiteonline-contato.jpeg</image:loc>
+	<image:title>obrigado pelo-contato-seusiteonline-contato.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/obrigado-pela-compra/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seusiteonline-fite-fundo.svg</image:loc>
+	<image:title>seusiteonline fite-fundo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/selos-seguranca-garantia-frete_prateado_seusiteonline.png</image:loc>
+	<image:title>selos seguranca-garantia-frete_prateado_seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/entrega-realizada-template-para-blocs-app.jpeg</image:loc>
+	<image:title>entrega realizada-template-para-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/criar-site/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/min-resultados-seu-site-online.jpeg</image:loc>
+	<image:title>resultados para-sua-empresa-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min.png</image:loc>
+	<image:title>template blocs-app-front-medium-min-1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/img-02.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-empresarial-seu-site-online.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/blog/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/ocenano-parceiro-cloudez-sseusiteonline.jpeg</image:loc>
+	<image:title>ocenano parceiro-cloudez-sseusiteonline.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/Logo-seu-site-online-seusiteonline.svg</image:loc>
+	<image:title>Logo seu-site-online-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/google.png</image:loc>
+	<image:title>google</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/facebook.png</image:loc>
+	<image:title>facebook</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/parceiros-claudez-seusiteonline.svg</image:loc>
+	<image:title>parceiros claudez-seusiteonline</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/yahoo.png</image:loc>
+	<image:title>yahoo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/oceano-vermelho/</loc>
+	<lastmod>2021-07-08</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/ocenano-parceiro-cloudez-sseusiteonline.jpeg</image:loc>
+	<image:title>ocenano parceiro-cloudez-sseusiteonline.jpeg</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>https://seusiteonline.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
