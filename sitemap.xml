@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://seusiteonline.com</loc>
-	<lastmod>2021-07-08</lastmod>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -51,8 +51,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/templates/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/templates.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -113,8 +113,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/entre-em-contato/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/entre-em-contato.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -127,8 +127,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/sobre/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/sobre.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -141,8 +141,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/perguntas-frequentes/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/perguntas-frequentes.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -159,8 +159,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/enviado/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/enviado.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -177,8 +177,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/contato/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/contato.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -191,8 +191,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/orcamento/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/orcamento.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -209,8 +209,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/contratar/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/contratar.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -227,8 +227,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/404/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/404.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -245,8 +245,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/atribuicoes/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/atribuicoes.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -259,8 +259,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/privacidade/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/privacidade.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -277,8 +277,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/templates-blocs-app/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/templates-blocs-app.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -311,8 +311,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/loading/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/loading.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -329,8 +329,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/modelo-site-blocs/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/modelo-site-blocs.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -367,8 +367,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/nossas-ferramentas/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/nossas-ferramentas.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -441,8 +441,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/hospedagem/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/hospedagem.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -459,8 +459,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/precos-hospedagem-de-sites/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/precos-hospedagem-de-sites.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -473,8 +473,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/blocs-app/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/blocs-app.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -495,8 +495,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/blocs/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/blocs.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -509,8 +509,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/template-agencia-de-marketing/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/template-agencia-de-marketing.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -547,8 +547,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/suporte/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/suporte.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -561,8 +561,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/contato-suporte/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/contato-suporte.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -579,8 +579,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/precos/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/precos.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -597,8 +597,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/preco-site-institucional/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/preco-site-institucional.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -611,8 +611,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/servicos/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/servicos.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -625,8 +625,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/gleiton-soares/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/gleiton-soares.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -639,8 +639,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/template-design-de-moveis/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/template-design-de-moveis.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -677,8 +677,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/pagamento/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/pagamento.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -691,8 +691,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/template-cantora-e-compositora/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/template-cantora-e-compositora.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -729,8 +729,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/manual-instalacao-template/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/manual-instalacao-template.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<video:video>
@@ -759,8 +759,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/plano-site-incrivel/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/plano-site-incrivel.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -773,8 +773,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/obrigado/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/obrigado.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -787,8 +787,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/enviado-com-sucesso/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/enviado-com-sucesso.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -805,8 +805,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/obrigado-pela-compra/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/obrigado-pela-compra.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -835,8 +835,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/criar-site/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/criar-site.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -857,8 +857,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/blog/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/blog.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -895,8 +895,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>https://seusiteonline.com/oceano-vermelho/</loc>
-	<lastmod>2021-07-08</lastmod>
+	<loc>https://seusiteonline.com/oceano-vermelho.html</loc>
+	<lastmod>2021-07-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
