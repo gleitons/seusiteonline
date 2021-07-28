@@ -42,28 +42,24 @@ $(function()
 		 			{  
 		 				if ($form.find('#form-feedback-alert').length == 0) // Add Alert
 		 				{
-		 					$form.append("<div id='form-feedback-alert' class='mt-2'><div class='alert alert-success' role='alert'><button type='button' class='btn-close float-end' data-bs-dismiss='alert' aria-hidden='true'></button><strong></strong></div></div>");
+		 					$form.append("<div id='form-feedback-alert' class='mt-2'><div class='alert'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong></strong></div></div>");
 		 				}
 		 				
-		 				var alert = $('#form-feedback-alert .alert');
-
-		 				if (data == 'capture-error' || data == 'capture-connection-error') // Capture Error
+		 				if (data == 'capture-error') // Capture Error
 		 				{
-		 					var type = 'warning';
-
-		 					if (data == 'capture-connection-error')
-		 					{
-		 						type = 'fail';
-		 					}
-
-		 					$('#form-feedback-alert strong').html($form.find('.g-recaptcha').attr('data-capture-'+type));
-		 					alert.addClass('alert-danger').removeClass('alert-success');
+		 					$('#form-feedback-alert').addClass('alert-danger').removeClass('alert-success');
+		 					$('#form-feedback-alert strong').html($form.find('.g-recaptcha').attr('data-capture-warning'));
+		 				}
+		 				else if (data == 'capture-connection-error') // Capture Connection Error
+		 				{
+		 					$('#form-feedback-alert').addClass('alert-danger').removeClass('alert-success');
+		 					$('#form-feedback-alert strong').html($form.find('.g-recaptcha').attr('data-capture-fail'));
 		 				}
 		 				else // Success
 		 				{
 		 					if ($form.is('[data-success-msg]')) // Show Success Message
 							{
-								alert.addClass('alert-success').removeClass('alert-danger');
+								$('#form-feedback-alert').addClass('alert-success').removeClass('alert-danger');
 		 						$('#form-feedback-alert strong').html($form.attr('data-success-msg'));
 								$form.trigger("reset"); // Clear Form	
 							}
@@ -77,7 +73,7 @@ $(function()
 			   		{
 						if($('#form-alert').length == 0)
 						{
-							$form.append("<div id='form-alert' class='mt-2'><div class='alert alert-danger' role='alert'><button type='button' class='btn-close float-end' data-bs-dismiss='alert' aria-hidden='true'></button><strong>"+$form.attr('data-fail-msg')+"</strong></div></div>");
+							$form.append("<div id='form-alert' class='mt-2'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('data-fail-msg')+"</strong></div></div>");
 						}	
 			   		},
 		   		});

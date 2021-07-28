@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://seusiteonline.com</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
-	<image:loc>https://seusiteonline.com/img/logo-seu-site-online-white.svg</image:loc>
+	<image:loc>https://seusiteonline.com/img/seu-site-online-seusiteonline.svg</image:loc>
 	<image:title>Logo seu-site-online-seusiteonline</image:title>
 	</image:image>
 	<image:image>
@@ -52,7 +52,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/templates.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -114,7 +114,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/entre-em-contato.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -128,7 +128,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/sobre.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -142,7 +142,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/perguntas-frequentes.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -160,7 +160,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/enviado.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -178,7 +178,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/contato.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -192,7 +192,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/orcamento.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -210,7 +210,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/contratar.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -228,7 +228,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/404.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -246,7 +246,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/atribuicoes.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -260,7 +260,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/privacidade.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -278,7 +278,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/templates-blocs-app.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -302,6 +302,10 @@
 	<image:title>pagina templates-blocs-app.jpeg</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://seusiteonline.com/img/tema-blocs-app-hamburgueria-template-blocs-app-seusiteonline.jpeg</image:loc>
+	<image:title>template-blocs-app-agencia-de-marketing</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://seusiteonline.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -312,7 +316,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/loading.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -330,7 +334,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/modelo-site-blocs.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -368,7 +372,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/nossas-ferramentas.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -442,7 +446,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/hospedagem.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -460,7 +464,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/precos-hospedagem-de-sites.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -474,7 +478,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/blocs-app.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -496,7 +500,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/blocs.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -510,7 +514,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/template-agencia-de-marketing.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -548,7 +552,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/suporte.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -562,7 +566,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/contato-suporte.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -580,7 +584,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/precos.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -598,7 +602,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/preco-site-institucional.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -612,7 +616,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/servicos.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -626,7 +630,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/gleiton-soares.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -640,7 +644,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/template-design-de-moveis.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -678,7 +682,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/pagamento.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -692,7 +696,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/template-cantora-e-compositora.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -730,7 +734,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/manual-instalacao-template.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<video:video>
@@ -760,7 +764,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/plano-site-incrivel.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -774,7 +778,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/obrigado.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -788,7 +792,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/enviado-com-sucesso.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -806,7 +810,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/obrigado-pela-compra.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -836,7 +840,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/criar-site.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -858,7 +862,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/blog.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -896,7 +900,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/oceano-vermelho.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -914,7 +918,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/aguardando-pagamento.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -944,7 +948,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/aguardando-analise.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -974,7 +978,7 @@
 </url>
 <url>
 	<loc>https://seusiteonline.com/seu-site-online-lite.html</loc>
-	<lastmod>2021-07-22</lastmod>
+	<lastmod>2021-07-27</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -988,6 +992,44 @@
 	<image:image>
 	<image:loc>https://seusiteonline.com/img/enviado-com-sucesso-seusiteonline.png</image:loc>
 	<image:title>laptop</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://seusiteonline.com/template-hamburgueria.html</loc>
+	<lastmod>2021-07-27</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/tema-blocs-app-hamburgueria-template-blocs-app-seusiteonline.jpeg</image:loc>
+	<image:title>template-blocs-hamburgueria</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/template-blocs-app-front-medium-min.png</image:loc>
+	<image:title>templates-for-blocs-templates-para-blocs</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/computador-macbook-os-seu-site-online-template-blocs-free.png</image:loc>
+	<image:title>macbook-seusiteonline-template-para-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seusiteonline-template-dentista-min.gif</image:loc>
+	<image:title>Carregando-animacao-template-dentista-para-blocs-app</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/pagina-templates-blocs-app.jpeg</image:loc>
+	<image:title>pagina templates-blocs-app.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://seusiteonline.com/img/seusiteonline-template-iphone-blocs-app.gif</image:loc>
+	<image:title>perfeitamente-otimizado-para-blocs-app</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://seusiteonline.com/img/</image:loc>
